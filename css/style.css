@@ -4,7 +4,7 @@
     transition: all 0.1s ease;
 }
 
-.crystal1:hover {
+#crystal1:hover {
     opacity: 0.4;
 }
 
@@ -15,7 +15,7 @@
     transition: all 0.1s ease;
 }
 
-.crystal2:hover {
+#crystal2:hover {
     opacity: 0.4;
 }
 
@@ -25,7 +25,7 @@
     transition: all 0.1s ease;
 }
 
-.crystal3:hover {
+#crystal3:hover {
     opacity: 0.4;
 }
 
@@ -35,7 +35,7 @@
     transition: all 0.1s ease;
 }
 
-.crystal4:hover {
+#crystal4:hover {
     opacity: 0.4;
 }
 
@@ -45,6 +45,11 @@
 }
 
 #condition {
+    color: white;
+    font-size: 25px;
+}
+
+#goal {
     color: white;
     font-size: 25px;
 }

@@ -9,7 +9,9 @@
       style="background-size: cover;
              background-repeat: no-repeat;">
     
-<!--Score Display-->    
+<!--Score Display-->   
+    <h1 id="goal"></h1>
+
     <h1 id="score">Score: 0</h1>
     
     <h1 id="condition"></h1>
@@ -42,7 +44,7 @@
 <script>
 //Winning number generator (Between 50 and 100)
 let winningnumber = Math.floor(Math.random() * 51)+50;
-console.log(winningnumber);
+document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
 
 
 //Score variable
@@ -65,13 +67,21 @@ console.log(rng4);
   const one = document.getElementById("crystal1");
   one.addEventListener("click", function() {
   score=score+rng1;
-  console.log(score);
   document.getElementById("score").innerHTML = "Score: " + score;
+
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win"; 
+        document.getElementById("condition").innerHTML = "You Win";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                 }
     else if (score > winningnumber){
         document.getElementById("condition").innerHTML = "You Lose";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                    }
 })
 
@@ -79,13 +89,21 @@ console.log(rng4);
   const two = document.getElementById("crystal2");
   two.addEventListener("click", function() {
   score=score+rng2;
-  console.log(score);
   document.getElementById("score").innerHTML = "Score: " + score;
+
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win"; 
+        document.getElementById("condition").innerHTML = "You Win";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                 }
     else if (score > winningnumber){
         document.getElementById("condition").innerHTML = "You Lose";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                    }
 })
 
@@ -93,13 +111,20 @@ console.log(rng4);
   const three = document.getElementById("crystal3");
   three.addEventListener("click", function() {
   score=score+rng3;
-  console.log(score);
   document.getElementById("score").innerHTML = "Score: " + score;
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win"; 
+        document.getElementById("condition").innerHTML = "You Win";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                 }
     else if (score > winningnumber){
         document.getElementById("condition").innerHTML = "You Lose";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                    }
 })
 
@@ -107,13 +132,20 @@ console.log(rng4);
   const four = document.getElementById("crystal4");
   four.addEventListener("click", function() {
   score=score+rng4;
-  console.log(score);
   document.getElementById("score").innerHTML = "Score: " + score;
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win"; 
+        document.getElementById("condition").innerHTML = "You Win";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                 }
     else if (score > winningnumber){
         document.getElementById("condition").innerHTML = "You Lose";
+        rng1=0;
+        rng2=0;
+        rng3=0;
+        rng4=0; 
                                    }
 })
 
