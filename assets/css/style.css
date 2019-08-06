@@ -54,6 +54,16 @@
     font-size: 25px;
 }
 
+#wins {
+    color: white;
+    font-size: 25px;
+}
+
+#losses {
+    color: white;
+    font-size: 25px;
+}
+
 #container {
     width:1240px; 
     margin:0 auto;
