@@ -1,0 +1,55 @@
+#crystal1 {
+    float: left;
+    height: 300px;
+    transition: all 0.1s ease;
+}
+
+.crystal1:hover {
+    opacity: 0.4;
+}
+
+#crystal2 {
+    float: left;
+    height: 340px;
+    margin-top: -20px;
+    transition: all 0.1s ease;
+}
+
+.crystal2:hover {
+    opacity: 0.4;
+}
+
+#crystal3 {
+    float: left;
+    height: 300px;
+    transition: all 0.1s ease;
+}
+
+.crystal3:hover {
+    opacity: 0.4;
+}
+
+#crystal4 {
+    float: left;
+    height: 300px;
+    transition: all 0.1s ease;
+}
+
+.crystal4:hover {
+    opacity: 0.4;
+}
+
+#score {
+    color: white;
+    font-size: 25px;
+}
+
+#condition {
+    color: white;
+    font-size: 25px;
+}
+
+#container {
+    width:1240px; 
+    margin:0 auto;
+}
