@@ -18,7 +18,8 @@ let rng2 = Math.floor(Math.random() * 7)+3;
 let rng3 = Math.floor(Math.random() * 7)+3;
 let rng4 = Math.floor(Math.random() * 7)+3;
 
-//Prevents duplicate rng values
+//Prevent duplicate rng values for crystals
+//?
 
 
 //crystal1 click command
@@ -28,7 +29,7 @@ let rng4 = Math.floor(Math.random() * 7)+3;
   document.getElementById("score").innerHTML = "Score: " + score;
 
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win";
+        document.getElementById("condition").innerHTML = "You Won!";
         wins = wins+1;
         document.getElementById("wins").innerHTML = "Wins: " + wins;
         score=0;
@@ -36,10 +37,12 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                 }
 
     else if (score > winningnumber){
-        document.getElementById("condition").innerHTML = "You Lose";
+        document.getElementById("condition").innerHTML = "You Lost";
         losses = losses+1;
         document.getElementById("losses").innerHTML = "Losses: " + losses;
         score=0;
@@ -47,6 +50,8 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                    }
 })
 
@@ -57,7 +62,7 @@ let rng4 = Math.floor(Math.random() * 7)+3;
   document.getElementById("score").innerHTML = "Score: " + score;
 
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win";
+        document.getElementById("condition").innerHTML = "You Won!";
         wins = wins+1;
         document.getElementById("wins").innerHTML = "Wins: " + wins;
         score=0;
@@ -65,10 +70,12 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                 }
 
     else if (score > winningnumber){
-        document.getElementById("condition").innerHTML = "You Lose";
+        document.getElementById("condition").innerHTML = "You Lost";
         losses = losses+1;
         document.getElementById("losses").innerHTML = "Losses: " + losses;
         score=0;
@@ -76,6 +83,8 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                    }
 })
 
@@ -85,7 +94,7 @@ let rng4 = Math.floor(Math.random() * 7)+3;
   score=score+rng3;
   document.getElementById("score").innerHTML = "Score: " + score;
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win";
+        document.getElementById("condition").innerHTML = "You Won!";
         wins = wins+1;
         document.getElementById("wins").innerHTML = "Wins: " + wins;
         score=0;
@@ -93,10 +102,12 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                 }
 
     else if (score > winningnumber){
-        document.getElementById("condition").innerHTML = "You Lose";
+        document.getElementById("condition").innerHTML = "You Lost";
         losses = losses+1;
         document.getElementById("losses").innerHTML = "Losses: " + losses;
         score=0;
@@ -104,6 +115,8 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                    }
 })
 
@@ -113,7 +126,7 @@ let rng4 = Math.floor(Math.random() * 7)+3;
   score=score+rng4;
   document.getElementById("score").innerHTML = "Score: " + score;
     if (score === winningnumber){
-        document.getElementById("condition").innerHTML = "You Win";
+        document.getElementById("condition").innerHTML = "You Won!";
         wins = wins+1;
         document.getElementById("wins").innerHTML = "Wins: " + wins;
         score=0;
@@ -121,10 +134,12 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                 }
 
     else if (score > winningnumber){
-        document.getElementById("condition").innerHTML = "You Lose";
+        document.getElementById("condition").innerHTML = "You Lost";
         losses = losses+1;
         document.getElementById("losses").innerHTML = "Losses: " + losses;
         score=0;
@@ -132,5 +147,7 @@ let rng4 = Math.floor(Math.random() * 7)+3;
         rng2 = Math.floor(Math.random() * 7)+3;
         rng3 = Math.floor(Math.random() * 7)+3;
         rng4 = Math.floor(Math.random() * 7)+3;
+        winningnumber = Math.floor(Math.random() * 51)+50;
+        document.getElementById("goal").innerHTML = "Get " + winningnumber +" points to win!";
                                    }
 })
